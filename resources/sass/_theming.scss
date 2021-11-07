@@ -1,0 +1,34 @@
+$primary: #9cccac;
+$warning: #BFBB3B;
+$danger: #be4456;
+$brown: #b23c10;
+$light-gray: #bebdbe;
+$mid-gray: #272b2f;
+$gray: #3d434b;
+$dark-gray: #212529;
+$dark: #07090a;
+$primary-light: #d3edbd;
+$primary-dark: #4e9463;
+$action-color: #4b9563;
+$success:#3aaa85;
+
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+    (
+        "primary": $primary,
+        "warning": $warning,
+        "danger": $danger,
+        "brown": $brown,
+        "light-gray": $light-gray,
+        "mid-gray": $mid-gray,
+        "gray": $gray,
+        "dark-gray": $dark-gray,
+        "dark": $dark,
+        "primary-light": $primary-light,
+        "primary-dark": $primary-dark,
+        "action-color":$action-color,
+        "success":$success
+    ),
+    $theme-colors
+);
